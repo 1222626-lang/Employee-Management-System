@@ -6,5 +6,9 @@ public class Main {
 
         dev.display();
         dev.writeCode();
+
+        System.out.println(
+            "Bonus: " + dev.calculateBonus()
+        );
     }
 }

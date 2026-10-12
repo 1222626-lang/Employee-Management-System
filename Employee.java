@@ -16,6 +16,10 @@ public class Employee {
         this.salary = salary;
     }
 
+    public double calculateBonus() {
+        return salary * 0.10;
+    }
+
     public void display() {
         System.out.println("Name: " + name);
         System.out.println("Salary: " + salary);
